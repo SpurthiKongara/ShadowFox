@@ -6,7 +6,7 @@ A desktop-based **Student Information System** developed using **Java Swing**. T
 
 ## 📌 Project Overview
 
-This project was developed as part of the **Java Development Internship** to demonstrate Java GUI programming using **Swing** and implement event-driven CRUD operations.
+This project was developed as part of the **Java Development Task** to demonstrate Java GUI programming using **Swing** and implement event-driven CRUD operations.
 
 The application enables users to:
 
