@@ -80,4 +80,4 @@ java Main
 - Modular Programming
 
 ---
-**Developed as part of the ShadowFox Java Development Internship – Beginner Level Project.**
+**Developed as part of the Java Development Task– Beginner Level Project.**
