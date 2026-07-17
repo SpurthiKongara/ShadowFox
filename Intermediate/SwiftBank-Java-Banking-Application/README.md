@@ -1,10 +1,14 @@
-# Bank Account Management System with Unit Testing (JUnit)
+# SwiftBank – Java Banking Application
+
+<p align="center">
+  <img src="screenshots/Untitled design (1).png" width="700">
+</p>
 
 ## Overview
 
-The Bank Account Management System is a Java-based desktop application developed using Java Swing. It enables users to perform essential banking operations such as account creation, deposits, withdrawals, balance inquiries, money transfers, and transaction history management through an interactive graphical user interface.
+SwiftBank is a Java Swing-based desktop banking application that enables users to perform essential banking operations through an intuitive graphical user interface. The application supports account creation, deposits, withdrawals, balance inquiries, fund transfers, and transaction history management.
 
-The project also includes JUnit test case implementations for validating core banking functionalities and demonstrates concepts such as object-oriented programming, exception handling, and software testing principles.
+This project was developed as part of the **ShadowFox Internship (Intermediate Level Task)** and demonstrates concepts such as Object-Oriented Programming, Exception Handling, GUI Development, and Unit Testing.
 
 ---
 
@@ -24,7 +28,7 @@ The project also includes JUnit test case implementations for validating core ba
 ### Transaction Management
 - View Transaction History
 
-### Validation and Error Handling
+### Validation & Error Handling
 - Input Validation
 - Invalid Amount Exception Handling
 - Insufficient Balance Exception Handling
@@ -45,7 +49,9 @@ The project also includes JUnit test case implementations for validating core ba
 
 ## Project Structure
 
+```text
 SwiftBank-Java-Banking-Application
+│
 ├── src
 │   ├── Main.java
 │   ├── BankingSystemGUI.java
@@ -57,6 +63,11 @@ SwiftBank-Java-Banking-Application
 │   └── BankAccountTest.java
 │
 ├── screenshots
+│   ├── Untitled design (1).png
+│   ├── Screenshot 2026-07-16 221656.png
+│   ├── Screenshot 2026-07-16 221715.png
+│   ├── Screenshot 2026-07-16 221739.png
+│   └── Screenshot 2026-07-16 221931.png
 │
 └── README.md
 ```
@@ -67,16 +78,16 @@ SwiftBank-Java-Banking-Application
 
 | Feature | Status |
 |--------|--------|
-| Create Account | Completed |
-| Login | Completed |
-| Deposit | Completed |
-| Withdraw | Completed |
-| Transfer Money | Completed |
-| Balance Inquiry | Completed |
-| Transaction History | Completed |
-| Input Validation | Completed |
-| Exception Handling | Completed |
-| JUnit Test Cases | Implemented |
+| Create Account | ✅ |
+| Login | ✅ |
+| Deposit | ✅ |
+| Withdraw | ✅ |
+| Transfer Money | ✅ |
+| Balance Inquiry | ✅ |
+| Transaction History | ✅ |
+| Input Validation | ✅ |
+| Exception Handling | ✅ |
+| JUnit Test Cases | ✅ Implemented |
 
 ---
 
@@ -91,7 +102,7 @@ SwiftBank-Java-Banking-Application
 
 ## JUnit Test Cases
 
-The following test cases have been implemented in `BankAccountTest.java`:
+Implemented test cases:
 
 - Account Creation Test
 - Deposit Test
@@ -101,29 +112,11 @@ The following test cases have been implemented in `BankAccountTest.java`:
 - Invalid Amount Exception Test
 - Insufficient Balance Exception Test
 
-> Note: JUnit test cases have been implemented. Execution of the test suite requires JUnit 5 configuration in the development environment.
+> **Note:** JUnit test cases have been implemented. Execution of the test suite requires JUnit 5 configuration in the development environment.
 
 ---
 
-## Screenshots
-
-Add screenshots for:
-
-- Login Screen
-- Create Account
-- Deposit Operation
-- Withdrawal Operation
-- Transfer Operation
-- Balance Inquiry
-- Transaction History
-
-### Project Banner
-
-<p align="center">
-  <img src="screenshots/Untitled design (1).png" width="700">
-</p>
-
-### Application Screens
+## Application Screenshots
 
 <table>
   <tr>
@@ -140,18 +133,18 @@ Add screenshots for:
 
 ## Future Enhancements
 
-- SQLite/File-Based Data Persistence
+- Data Persistence using SQLite
 - Password Encryption
 - Email Notifications
 - Interest Calculation
-- Online Banking Integration
+- Online Banking Features
 
 ---
 
 ## Limitations
 
 - Accounts are stored in memory.
-- Newly created accounts are not retained after the application is closed.
+- Newly created accounts are not retained after application closure.
 - JUnit execution requires additional environment configuration.
 
 ---
@@ -162,13 +155,15 @@ Add screenshots for:
 - Object-Oriented Programming
 - Exception Handling
 - Event Handling
-- Software Testing Concepts
-- Banking System Design
 - Unit Testing Fundamentals
+- Banking Application Design
 
 ---
 
 ## Task Details
 
-- **Task Level:** Intermediate
-- **Task:** Bank Account Management System with Unit Testing (JUnit)
+| Field | Details |
+|------|------|
+| Task Level | Intermediate |
+| Project | SwiftBank – Java Banking Application |
+
