@@ -117,6 +117,25 @@ Add screenshots for:
 - Balance Inquiry
 - Transaction History
 
+### Project Banner
+
+<p align="center">
+  <img src="screenshots/Untitled design (1).png" width="700">
+</p>
+
+### Application Screens
+
+<table>
+  <tr>
+    <td><img src="screenshots/Screenshot 2026-07-16 221656.png" width="400"></td>
+    <td><img src="screenshots/Screenshot 2026-07-16 221715.png" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/Screenshot 2026-07-16 221739.png" width="400"></td>
+    <td><img src="screenshots/Screenshot 2026-07-16 221931.png" width="400"></td>
+  </tr>
+</table>
+
 ---
 
 ## Future Enhancements
